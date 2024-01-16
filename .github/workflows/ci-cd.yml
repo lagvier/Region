@@ -4,7 +4,7 @@ on: push
 jobs:
   deploy-job:
     name: 🎉 Deploy
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
       - run: echo "Deploying"
